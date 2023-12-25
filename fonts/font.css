@@ -1,21 +1,23 @@
 @font-face {
-  src: local('Raleway'),
-        local('Raleway-Regular'),
-        local('Raleway Regular'),
+  src: local('Raleway-Regular'),
+        local('Raleway-regular'),
+        local('raleway-regular'),
         url('./Raleway-Regular.woff2') format('woff2'),
         url('./Raleway-Regular.woff') format('woff');
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  src:  local('Raleway'),
-        local('Raleway-ExtraBold'),
-        local('Raleway ExtraBold'),
+  src: local('Raleway-ExtraBold'),
+        local('Raleway-Extrabold'),
+        local('Raleway-extraBold'),
+        local('raleway-Extrabold'),
         url('./Raleway-ExtraBold.woff2') format('woff2'),
         url('./Raleway-ExtraBold.woff') format('woff');
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-weight: 800;
   font-display: swap;
 }
+
